@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/relativeLayout1">
+
+    <EditText
+        android:hint="Draw inputs comes here!"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="105.5dp"
+        android:id="@+id/drawsEditText"/>
+
+
+
+    <EditText
+        android:id="@+id/d22"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:layout_height="50dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/d33"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="215dp"
+        android:layout_height="50dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/d11"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="75dp"
+        android:layout_height="50dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:hint="Results"
+        android:id="@+id/displayR"
+        android:layout_width="match_parent"
+        android:layout_height="205.0dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="22.0dp" />
+    
+    <Button
+        android:text="Submitt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:id="@+id/submitter"/>
+</RelativeLayout >
